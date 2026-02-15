@@ -1,0 +1,741 @@
+<!--//=================================================================================================================
+//					FACEBOOK: https://www.facebook.com/thangtoccuoi/
+//					Zalo + S?T : 0968.09.23.99
+//					Name : Th?ng C??i
+//=======Cung C?p Sever Mu Online========
+//-Phi��n B?n
+//+DLL Clasic Cutsom C�� ??
+//+5.2 FPS 120 Si��u M??t
+//======H? Tr?=========
+//+Config Sever Theo Y Mu?n
+//+D?ch V? VPS Hosting T��n Mi?n Antihack
+//=================================================================================================================
+-->
+<?xml version="1.0" encoding="utf-8"?>
+<ThangCuoi> 
+	<Message>
+		<Msg Index="0"   Text="�¼� %s ���� %d ���Ӻ�ʼ" />
+		<Msg Index="1"   Text="�������Ѵ�� %d ��ת��" />
+		<Msg Index="2"   Text="��ӭ�����漣MU������" />
+		<Msg Index="3"   Text="�˻�����ͨ" />
+		<Msg Index="4"   Text="�˻�������" />
+		<Msg Index="5"   Text="�˻����ƽ�" />
+		<Msg Index="6"   Text="�˻�����ʯ" />
+		<Msg Index="7"   Text="��ϲ %s �ѳ�Ϊ�漣MU��һ�����" />
+		<Msg Index="8"   Text="%s ������" />
+		<Msg Index="9"   Text="��ɫ %s �ոռ���" />
+		<Msg Index="10"  Text="��Ϊ�����˻����� %d WC" />
+		<Msg Index="11"  Text="��Ϊ�����˻����� %d WP" />
+		<Msg Index="12"  Text="��Ϊ�����˻����� %d GP" />
+		<Msg Index="13"  Text="�Ѵ������˻��۳� %d %s" />
+		<Msg Index="14"  Text="Ѫɫ�Ǳ������ %d ���Ӻ�ʼ" />
+		<Msg Index="15"  Text="Ѫɫ�Ǳ���ѹر�" />
+		<Msg Index="16"  Text="Ѫɫ�Ǳ� %d ���� %d ���Ӻ�ʼ" />
+		<Msg Index="17"  Text="Ѫɫ�Ǳ���ѿ�ʼ" />
+		<Msg Index="18"  Text="Ѫɫ�Ǳ���ѽ���" />
+		<Msg Index="19"  Text="���й����ѱ�����" />
+		<Msg Index="20"  Text="����BOSS�ѱ�����" />
+		<Msg Index="21"  Text="�����������㣬�޷��μ�Ѫɫ�Ǳ�" />
+		<Msg Index="22"  Text="%s ��������ʹ����" />
+		<Msg Index="23"  Text="%s ʰȡ����ʹ����" />
+		<Msg Index="24"  Text="%s �ݻ���Ѫɫ�Ǳ�����" />
+		<Msg Index="25"  Text="%s �ݻ��˵���" />
+		<Msg Index="26"  Text="���ѻ�ɱ %d / %d ֻ����" />
+		<Msg Index="27"  Text="%s ����ȡ������" />
+		<Msg Index="28"  Text="��ӭ����MU" />
+		<Msg Index="29"  Text="��⵽��Ʒ���ظ�������������ϵ����Ա" />
+		<Msg Index="30"  Text="���Ѵ������󸴻���� %d/%d" />
+		<Msg Index="31"  Text="���ĵȼ�δ�ﵽ %d" />
+		<Msg Index="32"  Text="����ת������δ�ﵽ %d" />
+		<Msg Index="33"  Text="���Ļ��籦ʯδ�ﵽ %d" />
+		<Msg Index="34"  Text="����ף����ʯδ�ﵽ %d" />
+		<Msg Index="35"  Text="������걦ʯδ�ﵽ %d" />
+		<Msg Index="36"  Text="����������ʯδ�ﵽ %d" />
+		<Msg Index="37"  Text="���Ĵ��챦ʯδ�ﵽ %d" />
+		<Msg Index="38"  Text="���ż�...������" />
+		<Msg Index="39"  Text="%s �Ѹ���� %d ��" />
+		<Msg Index="40"  Text="������ %d ��ת�����ܽ���" />
+		<Msg Index="41"  Text="������ %d ����ֲ��ܽ���" />
+		<Msg Index="42"  Text="���׳ɹ�" />
+		<Msg Index="43"  Text="%s �� %s ��ת���ɹ�" />
+		<Msg Index="44"  Text="��Ϊ�����˻����� %d Ruud" />
+		<Msg Index="45"  Text="��Ϊ�����˻����� %d ATM" />
+		<Msg Index="46"  Text="��ʱ�޷�ʹ��" />
+		<Msg Index="47"  Text="���Ե�Ƭ��" />
+		<Msg Index="48"  Text="���� %d �ȼ���" />
+		<Msg Index="49"  Text="%s �����������л���� %s" />
+		<Msg Index="50"  Text="������Ҫ %d WC ����ת��" />
+		<Msg Index="51"  Text="������� %d WC" />
+		<Msg Index="52"  Text="������� %d WP" />
+		<Msg Index="53"  Text="������� %d PCP" />
+		<Msg Index="54"  Text="������� %d Ruud" />
+		<Msg Index="55"  Text="������չ�� %d ����Ʒ��" />
+		<Msg Index="56"  Text="���Ľ�Ҳ��㡣��Ҫ %d" />
+		<Msg Index="57"  Text="��Ʒ�� %d �Ѿ�������" />
+		<Msg Index="58"  Text="58" />
+		<Msg Index="59"  Text="59" />
+		<Msg Index="60"  Text="�������� %d ���Ӻ�ر�" />
+		<Msg Index="61"  Text="��������ѹر�" />
+		<Msg Index="62"  Text="������� %d ������ %d ���Ӻ���" />
+		<Msg Index="63"  Text="��������ѿ�ʼ" />
+		<Msg Index="64"  Text="��������ѽ���" />
+		<Msg Index="65"  Text="�˵�ͼ����ʹ�ô�����" />
+		<Msg Index="66"  Text="����Ҫ�㹻�� %d ���" />
+		<Msg Index="67"  Text="��Ҫ����ͬ���͵���Ʒ" />
+		<Msg Index="68"  Text="ֻ��Ҫ����" />
+		<Msg Index="69"  Text="δ��������ȷλ��" />
+		<Msg Index="70"  Text="��Ҫͬ����Ʒ" />
+		<Msg Index="71"  Text="��Ҫͬ�ȼ���Ʒ" />
+		<Msg Index="72"  Text="�޷�ǿ������Ʒ" />
+		<Msg Index="73"  Text="�޷�ǿ����ʥ��Ʒ" />
+		<Msg Index="74"  Text="�ϳɺ�����" />
+		<Msg Index="75"  Text="�ϳ�ʧ��" />
+		<Msg Index="76"  Text="�ϳɳɹ�" />
+		<Msg Index="77"  Text="������VIP" />
+		<Msg Index="78"  Text="(%s)(%s) �ѿ����ϳ�" />
+		<Msg Index="79"  Text="����׼������" />
+		<Msg Index="80"  Text="����Ҫ %d WP �Ź� %d WP ���н���" />
+		<Msg Index="81"  Text="����Ҫ %d WC �Ź� %d WC ���н���" />
+		<Msg Index="82"  Text="����Ҫ %d ��� �Ź� %d ��� ���н���" />
+		<Msg Index="83"  Text="����Ҫ %d ��� ����ʹ�� /post Ŷ" />
+		<Msg Index="84"  Text="����ﵽ %d ������ʹ�� /post Ŷ" />
+		<Msg Index="85"  Text="����Ҫ�ﵽ %d ת�����ܷ���" />
+		<Msg Index="86"  Text="��ȴ� %d ����ٷ���Ŷ" />
+		<Msg Index="87"  Text="����Ȩʹ�ô�����Ŷ" />
+		<Msg Index="88"  Text="%s %s" />
+		<Msg Index="89"  Text="������ֻ����������ʹ��Ŷ" />
+		<Msg Index="90"  Text="��Ȩʹ�� /add ����Ŷ" />
+		<Msg Index="91"  Text="������ %d �㣬ʣ����� %d ��" />
+		<Msg Index="92"  Text="û�е������Լ���Ŷ" />
+		<Msg Index="93"  Text="���ֲ���ɱ�֣�ϴʲô����" />
+		
+		<Msg Index="94"  Text="%s ������ƽ���ʿ "/>
+		<Msg Index="95"  Text="%s ������ƽ��ħ"/>
+		<Msg Index="96"  Text="%s ������ƽ�ʯ���"/>
+		<Msg Index="97"  Text="%s ������ƽ����� "/>
+		<Msg Index="98"  Text="%s ������ƽ�ľ���� "/>
+		<Msg Index="99"  Text="%s �������ɫ�ƽ�ħ "/>
+		<Msg Index="100" Text="%s ������ƽ�սʿ "/>
+		<Msg Index="101" Text="%s ���������ƽ�ħ "/>
+		<Msg Index="102" Text="%s ������ƽ��� "/>
+		<Msg Index="103" Text="%s ������ƽ�װ����"/>
+		
+		<Msg Index="104" Text="%s ������С��ʯ"/>
+		<Msg Index="105" Text="%s ���������ʯ"/>
+		<Msg Index="106" Text="%s �������ʯ"/>
+		<Msg Index="107" Text="%s ���������"	/>
+		<Msg Index="108" Text="%s ����������" />
+		<Msg Index="109" Text="%s ������ħ��"/>
+		<Msg Index="110" Text="%s ������ɪ����"/>
+		<Msg Index="111" Text="%s ����������ɯ"/>
+		
+		<Msg Index="112" Text="%s ������ȭħ��"/>
+		<Msg Index="113" Text="%s ����������ħ"/>
+		<Msg Index="114" Text="%s ������Ѫħ��"/>
+		<Msg Index="115" Text="%s �������Ӱ"/>
+		<Msg Index="116" Text="%s ������Ŭ��˹"/>
+		<Msg Index="117" Text="%s ������ˮ֮�ʵ�"/>
+		<Msg Index="118" Text="%s ������ţħ��"/>
+		<Msg Index="119" Text="%s �����������"/>
+		<Msg Index="120" Text="%s ���������ħ��"/>
+		<Msg Index="121" Text="%s ��������֮����"/>
+		<Msg Index="122" Text="%s ������а��"/>
+		<Msg Index="123" Text="%s ������ħ��"/>
+		<Msg Index="124" Text="%s ������ս��"/>
+		
+		<Msg Index="125" Text="%s ������ƽ���ϣķ" />
+		<Msg Index="126" Text="%s ������ƽ�����" />
+		<Msg Index="127" Text="%s ������ƽ�����ɯ" />
+		<Msg Index="128" Text="%s ������ƽ�ɪ����" />
+		<Msg Index="129" Text="%s ������ȭħ��" />
+		<Msg Index="130" Text="%s ����������ħ" />
+		<Msg Index="131" Text="%s ������Ѫħ��" />
+		<Msg Index="132" Text="%s ��������" />
+		<Msg Index="133" Text="%s ��������Ŭ��˹" />
+		<Msg Index="134" Text="%s ������ˮ֮�ʵ�" />
+		<Msg Index="135" Text="%s ��������ɫ����" />
+		<Msg Index="136" Text="%s ��������ɫ����" />
+		<Msg Index="137" Text="%s �������ɫ����" />
+		<Msg Index="138" Text="%s ������ţħ��" />
+		<Msg Index="139" Text="%s �����������" />
+		<Msg Index="140" Text="%s ���������ħ��" />
+		<Msg Index="141" Text="%s ��������֮����" />
+		<Msg Index="142" Text="%s ������а��" />
+		<Msg Index="143" Text="%s ������ħ��" />
+		<Msg Index="144" Text="%s ��������з" />
+		<Msg Index="145" Text="%s ���������з�����ֻ��ұ���" />
+		<Msg Index="146" Text="%s ��������ұ��ء����������Ʒ" />
+		<Msg Index="147" Text="%s ��һȭ���ħ��" />
+		<Msg Index="148" Text="%s ����������ɯ" />
+		<Msg Index="149" Text="%s ������ƽ�����ɯ" />
+		<Msg Index="150" Text="%s ���������" />
+		<Msg Index="151" Text="%s ��������˫ս��" />
+		<Msg Index="152" Text="%s ����������" />
+		<Msg Index="153" Text="153" />
+		<Msg Index="154" Text="154" />
+		<Msg Index="155" Text="155" />
+		<Msg Index="156" Text="156" />
+		<Msg Index="157" Text="157" />
+		<Msg Index="158" Text="158" />
+		<Msg Index="159" Text="159" />
+		<Msg Index="160" Text="160" />
+		<Msg Index="161" Text="161" />
+		<Msg Index="162" Text="162" />
+		<Msg Index="163" Text="163" />
+		<Msg Index="164" Text="164" />
+		<Msg Index="165" Text="165" />
+		<Msg Index="166" Text="166" />
+		<Msg Index="167" Text="167" />
+		<Msg Index="168" Text="168" />
+		<Msg Index="169" Text="169" />
+		<Msg Index="170" Text="170" />
+		<Msg Index="171" Text="���ѻ�ɱ %d / %d ֻ����" />
+		<Msg Index="172" Text="%s �ѻ�ɱ�㹻 %d ֻ�����ʯ�ѷ��뱦��" />
+		<Msg Index="173" Text="ת���������ܳ��� %d ��Ŷ" />
+		<Msg Index="174" Text="����װ��ʱ����ת��Ŷ" />
+		<Msg Index="175" Text="δ�ҵ�Ŀ�����׷��" />
+		<Msg Index="176" Text="�ѹرս�������" />
+		<Msg Index="177" Text="��Ʒ�����ɹ�Ŷ" />
+		<Msg Index="178" Text="�ѿ������պ�������" />
+		<Msg Index="179" Text="�����ɹ��������� %d ����" />
+		<Msg Index="180" Text="ȱ����Ʒ���޷�����" />
+		<Msg Index="181" Text="������Ҫ %d ��ת����������" />
+		<Msg Index="182" Text="��Ҫ %d ��Ҳ�������Ŷ" />
+		<Msg Index="183" Text="���������ѳ������� %d ����" />
+		<Msg Index="184" Text="�Զ��ӵ㣺���� (%d)" />
+		<Msg Index="185" Text="�Զ��ӵ㣺�ر�" />
+		<Msg Index="186" Text="�Զ�ת��������" />
+		<Msg Index="187" Text="�Զ�ת�����ر�" />
+		<Msg Index="188" Text="��ʱ�޷�����Ŷ" />
+		<Msg Index="189" Text="������ %d ����������" />
+		<Msg Index="190" Text="��ʱ�޷�ת��Ŷ" />
+		<Msg Index="191" Text="��Ҫ�ﵽ %d ������ת��Ŷ" />
+		<Msg Index="192" Text="����Ҫ %d ��Ҳ���ת��Ŷ" />
+		<Msg Index="193" Text="����Ȩʹ��ת��" />
+		<Msg Index="194" Text="���л����� %d ���ֿ�" />
+		<Msg Index="195" Text="����ֵ�������10��Ŷ" />
+		<Msg Index="196" Text="��ʱ�޷��򿪲ֿ�Ŷ" />
+		<Msg Index="197" Text="����������񡣹�ϲ��" />
+		<Msg Index="198" Text="����������һ��������" />
+		<Msg Index="199" Text="�ɹ���������¼��ϣ������Ҫ�ٷ�" />
+		<Msg Index="200" Text="�¼�"/>
+		<Msg Index="201" Text="��ʼ" />
+		<Msg Index="202" Text="����" />
+		<Msg Index="203" Text="%s ǿ�� %s �ɹ�" />
+		<Msg Index="204" Text="%s �ѽ���Ʒ��������粼��" />
+		<Msg Index="205" Text="%s �ɹ�ǿ��Ϊ�ƽ�����" />
+		<Msg Index="206" Text="%s ǿ���ƽ�����ʧ��" />
+		<Msg Index="207" Text="��л��ʹ�����ǵķ���" />
+		<Msg Index="208" Text="�Զ�ͬ�����ģʽ�ѿ���" />
+		<Msg Index="209" Text="ÿ��ֻ��ת�� %d ��" />
+		<Msg Index="210" Text="ÿ��ֻ��ת�� %d ��" />
+		<Msg Index="211" Text="ÿ��ֻ��ת�� %d ��Ŷ" />
+		<Msg Index="212" Text="ÿ��ֻ������ %d ��" />
+		<Msg Index="213" Text="ÿ��ֻ������ %d ��Ŷ" />
+		<Msg Index="214" Text="��������������ֻ�� %d ��" />
+		<Msg Index="215" Text="��ħ�㳡����� %d ���Ӻ�ر�" />
+		<Msg Index="216" Text="��ħ�㳡��ѹر�" />
+		<Msg Index="217" Text="��ħ�㳡 %d ���� %d ���Ӻ�ʼ" />
+		<Msg Index="218" Text="��ħ�㳡��ѿ�ʼ" />
+		<Msg Index="219" Text="��ħ�㳡��ѽ���" />
+		<Msg Index="220" Text="�����������㣬�޷��μӹ㳡�" />
+		<Msg Index="221" Text="ɱ�˷�����ת��" />
+		<Msg Index="222" Text="%s �� %s ���뾺���������д���Ŷ" />
+		<Msg Index="223" Text="����������Ա��Ŷ" />
+		<Msg Index="224" Text="%s �ھ������л����� %s" />
+		<Msg Index="225" Text="��Ҳ�����" />
+		<Msg Index="226" Text="����ʱ���ܷ�����ս" />
+		<Msg Index="227" Text="�Է����Զ��ܾ�������ս" />
+		<Msg Index="228" Text="����Է�������ս������Ŷ" />
+		<Msg Index="229" Text="�Է��ѱ�������ս��" />
+		<Msg Index="230" Text="�����ڹ���ս�У�������ս" />
+		<Msg Index="231" Text="�Է����ڹ���ս�У��޷�������ս" />
+		<Msg Index="232" Text="�˵�ͼ���ܷ�����սŶ" />
+		<Msg Index="233" Text="����ս�ڼ䣬��������ս" />
+		<Msg Index="234" Text="δ�ҵ������Ŷ" />
+		<Msg Index="235" Text="���Ѵ���ս��״̬" />
+		<Msg Index="236" Text="�Է�����ս���У����Ե�" />
+		<Msg Index="237" Text="�Է��Ѿܾ�����Ŷ" />
+		<Msg Index="238" Text="������� %d ���Ӻ�ر�" />
+		<Msg Index="239" Text="�������ѹر�" />
+		<Msg Index="240" Text="������ %d ���� %d ���ʼ" />
+		<Msg Index="241" Text="�������ѿ�ʼ" />
+		<Msg Index="242" Text="���������" />
+		<Msg Index="243" Text="����ʵ�������Խ��������" />
+		<Msg Index="244" Text="����û�н�����������ƱŶ" />
+		<Msg Index="245" Text="%s ����������" />
+		<Msg Index="246" Text="%s ʰȡ������" />
+		<Msg Index="247" Text="Ħ˹үү������" />
+		<Msg Index="248" Text="Ħ˹үү��ʧ��" />
+		<Msg Index="249" Text="��ʱ�����ƶ�" />
+		<Msg Index="250" Text="�̿Ͳ������ƶ�Ŷ" />
+		<Msg Index="251" Text="װ����Ч���ƶ�ʲô" />
+		<Msg Index="252" Text="������ﵽ %d �������ƶ�Ŷ" />
+		<Msg Index="253" Text="��������Ӫ��Ա�����ƶ�Ŷ" />
+		<Msg Index="254" Text="����Ҫ %d ��ת�������ƶ�������" />
+		<Msg Index="255" Text="����ﵽ��� %d ��ת�������ƶ�Ŷ" />
+		<Msg Index="256" Text="����ﵽ��� %d �������ƶ�Ŷ" />
+		<Msg Index="257" Text="�ƶ���Ҫ %d ���Ŷ" />
+		<Msg Index="258" Text="����û�з�Ӧ��û�г���" />
+		<Msg Index="259" Text="����ս�ڼ䳤�ϲ��ṩ����" />
+		<Msg Index="260" Text="������ӵ�гǱ��Ĺ���᳤����ʹ�ó���" />
+		<Msg Index="261" Text="ֻ�й���᳤����ʹ�ó���Ŷ" />
+		<Msg Index="262" Text="�����ѱ����" />
+		<Msg Index="263" Text="���ѳɹ����빫����Ŷ" />
+		<Msg Index="264" Text="�������������Դ�������Ŷ" />
+		<Msg Index="265" Text="�̵�յ�����ĵ�" />
+		<Msg Index="266" Text="���ų���ʱ��ô�ƶ�������" />
+		<Msg Index="267" Text="��̫���ˣ��������ʸ�����Ӱ��ԺŶ" />
+		<Msg Index="268" Text="����ʧ�ܣ���������·��" />
+		<Msg Index="269" Text="��ʱ����ǰ��������ͼŶ" />
+		<Msg Index="270" Text="��˪���߸մӱ�ѩ�г���" />
+		<Msg Index="271" Text="��˪�����ѱ�������Ŷ" />
+		<Msg Index="272" Text="����ﵽ40������Ͷ������ƷŶ" />
+		<Msg Index="273" Text="������ %d ��󱻴���" />
+		<Msg Index="274" Text="�ﵽ80������Ͷ������ƷŶ" />
+		<Msg Index="275" Text="1���Ӻ�ս��������" />
+		<Msg Index="276" Text="����װ�������ܷɵ��˵�ͼŶ" />
+		<Msg Index="277" Text="�����������ֹر���" />
+		<Msg Index="278" Text="ֻ�ܼ� %d ��Ŷ" />
+		<Msg Index="279" Text="���������� %d ��Ŷ" />
+		<Msg Index="280" Text="280 - Goc 276 - Chua co Mess" />
+		<Msg Index="281" Text="ج�γ��֣��칥���Դ򿪾���������" />
+		<Msg Index="282" Text="ج�α����𣬾�����������ȫ��" />
+		<Msg Index="283" Text="ʱ�䵽��������ǿ���˳��" />
+		<Msg Index="284" Text="ɪ���˳��֣����������Ž��� %d ���Ӻ�ر�" />
+		<Msg Index="285" Text="�����������ѹر�" />
+		<Msg Index="286" Text="%s ������ɪ���ˣ�����һ�Ѽ�Ʒװ��" />
+		<Msg Index="287" Text="���������Ž��� %d ���Ӻ����´�" />
+		<Msg Index="288" Text="����³���Ÿոմ�" />
+		<Msg Index="289" Text="�����������Ѵ�" />
+		<Msg Index="290" Text="����Ʒ��������������ʰȡ" />
+		<Msg Index="291" Text="�����в����˳�" />
+		<Msg Index="292" Text="���ڴ򿪲ֿ�ʱ�˳�������ô��" />
+		<Msg Index="293" Text="����ʹ�û���װ�ã���ʲô��" />
+		<Msg Index="294" Text="��������ѵ�����벻Ҫ�˳�" />
+		<Msg Index="295" Text="ս������ʲô����ô��" />
+		<Msg Index="296" Text="������Ŷ����ϲ" />
+		<Msg Index="297" Text="��ʦ�Ѵﵽ��ߵȼ���" />
+		<Msg Index="298" Text="����������60���Ӻ�ر�Ŷ" />
+		<Msg Index="299" Text="����20���Ӿ�������Ҫ�ر���Ŷ" />
+		<Msg Index="300" Text="������������ô���£�" />
+		<Msg Index="301" Text="���籤����ս��������´��ٻ�Ŷ" />
+		<Msg Index="302" Text="���籤����ս����� %d ���Ӻ�ʼŶ" />
+		<Msg Index="303" Text="���� %s �ڱ��籤����ս���ռ���˳Ǳ�" />
+		<Msg Index="304" Text="���籤����ս���� %d �������Ŷ" />
+		<Msg Index="305" Text="����Ҫ��������ϵ���Ʒ" />
+		<Msg Index="306" Text="��û�м��빫�ᣬ�޷��μ�" />
+		<Msg Index="307" Text="���Ĺ����Ѿ�ռ��Ǳ���" />
+		<Msg Index="308" Text="��վ��λ����Ŷ" />
+		<Msg Index="309" Text="������Ҫ���� %d ����Ա���ܲ�ս" />
+		<Msg Index="310" Text="��ǸŶ�����Ĺ����Ѿ�ռ�ݳǱ���" />
+		<Msg Index="311" Text="[���籤����ս] ����� %d ���Ӻ����" />
+		<Msg Index="312" Text="���ո��� %s ��飬��ϲ��λŶ" />
+		<Msg Index="313" Text="���ո�����˱������������Ʒ" />
+		<Msg Index="314" Text="��Ȩ����Webzen����Th?ng C??i����" />
+		<Msg Index="315" Text="%s �ѽ� %s �ͻس���" />
+		<Msg Index="316" Text="%s �ѻ��� %s" />
+		<Msg Index="317" Text="%s �һ�׿Խװ������� %d WCoinC �� %d WCoinP�������Ŭ��Ŷ��" />
+		<Msg Index="318" Text="���������Լ����" />
+		<Msg Index="319" Text="����VIP�ɹ�" />
+		<Msg Index="320" Text="�Ҳ������˻�" />
+		<Msg Index="321" Text="%s �C ������������Ҫ�ҵİ�����" />
+		<Msg Index="322" Text="%s �C ����VIP�ײ��޷�ʹ�ô�����" />
+		<Msg Index="323" Text="%s �C ��Ҫ %d ��Ҳ���ʹ��Ŷ" />
+		<Msg Index="324" Text="%s �C ��Ҫ %d PCPoints ����ʩ������" />
+		<Msg Index="325" Text="%s �C �����Ƿ�������Ӫ����ʹ��Ŷ" />
+		<Msg Index="326" Text="%s �C �������Ƕ�������Ӫ����ʹ��" />
+		<Msg Index="327" Text="%s �C �������Ƕ�������Ӫ�ĳ�Ա���ܻ��" />
+		<Msg Index="328" Text="%s �C ����Ϊ��������Ӫ׼����Ŷ" />
+		<Msg Index="329" Text="%s �C ������ %d ������������ʹ��" />
+		<Msg Index="330" Text="%s �C �������ʱ�䣺%d ����" />
+		<Msg Index="331" Text="%s �C �ѿ۳� %d �����Ŷ" />
+		<Msg Index="332" Text="%s �C �ѿ۳� %d PCPoint(s) ��" />
+		<Msg Index="333" Text="%s �C �����ѳɹ�Ӧ��" />
+		<Msg Index="334" Text="���Ѿ��л�������Ŷ" />
+		<Msg Index="335" Text="�Է�������ż���벻Ҫ����" />
+		<Msg Index="336" Text="X��i Nh? V?y N��: [/marry to 'T��n'; | /marry divorce | /marry Track or Trace]" />
+		<Msg Index="337" Text="�ս���һ�ܾ�Ҫ��飬С������" />
+		<Msg Index="338" Text="������飬���ڻָ�������" />
+		<Msg Index="339" Text="�����ǵ����أ���ʲô��" />
+		<Msg Index="340" Text="׷�ٳɹ�" />
+		<Msg Index="341" Text="�ѳɹ�Ѱ�ҵ�" />
+		<Msg Index="342" Text="%s �ո��� %s ϲ������" />
+		<Msg Index="343" Text="%s �� %s �ѷֵ�����" />
+		<Msg Index="344" Text="[����ϵͳ] ��ɫ" />
+		<Msg Index="345" Text="%s �� %s ����ͬ��" />
+		<Msg Index="346" Text="[����ϵͳ] ��֧�������ֵ������Ŷ" />
+		<Msg Index="347" Text="����Ҫ���ٴﵽ %d ������ʹ�ô�����" />
+		<Msg Index="348" Text="�Է�Ҳ����ﵽ %d �����ϲ���" />
+		<Msg Index="349" Text="���[/class dw, dk, elf, mg, dl, su]" />
+		<Msg Index="350" Text="����ѡ��������ͬ��ְҵ����ת��Ŷ" />
+		<Msg Index="351" Text="������ֻ���ڳ�����ʹ��Ŷ" />
+		<Msg Index="352" Text="δ֪��%d %d" />
+		<Msg Index="353" Text="���������" />
+		<Msg Index="354" Text="������ң�%d ��" />
+		<Msg Index="355" Text="355" />
+		<Msg Index="356" Text="356" />
+		<Msg Index="357" Text="357" />
+		<Msg Index="358" Text="358" />
+		<Msg Index="359" Text="359" />
+		<Msg Index="360" Text="����Ҫ���� %d ��Ҳ���ʹ�ô�����" />
+		<Msg Index="361" Text="����վ��������2����ȷλ��Ŷ" />
+		<Msg Index="362" Text="�Է�Ҳ����վ��������2����ȷλ��" />
+		<Msg Index="363" Text="��Ϣ��[��͵ȼ���%d | ׷�ٷ��ã�%d ���]" />
+		<Msg Index="364" Text="�Է�����ʱ�������" />
+		<Msg Index="365" Text="�Է��Ѿ�������" />
+		<Msg Index="366" Text="��ְҵ��δ����Ŷ" />
+		<Msg Index="367" Text="��ɫ %s ��ǰ������Ŷ" />
+		<Msg Index="368" Text="�Ϳ�˹�����ٽ��ӽ��ˣ�׼�������ǻ�Ҫ��" />
+		<Msg Index="369" Text="�Ϳ�˹��ʿ����׼���ý����ǻ�Ҫ����" />
+		<Msg Index="370" Text="һ�ӰͿ�˹ʿ��������ǰ���ǻ�Ҫ��" />
+		<Msg Index="371" Text="�Ϳ�˹�������ƽ��ǻ�Ҫ��" />
+		<Msg Index="372" Text="û�о����ػ���̳����ʥ�������˿���" />
+		<Msg Index="373" Text="�Ϳ�˹��Ӳ��������" />
+		<Msg Index="374" Text="ʧ���ˣ��Ϳ�˹��ռ������" />
+		<Msg Index="375" Text="���سɹ�����ס������" />
+		<Msg Index="376" Text="���� %d ��������Ǽ�̳" />
+		<Msg Index="377" Text="���� %d ���Ӻ������Ǽ�̳" />
+		<Msg Index="378" Text="�Ϳ�˹���ӽ��� %d ������" />
+		<Msg Index="379" Text="�Ϳ�˹���ӽ��� %d ���Ӻ����" />
+		<Msg Index="380" Text="û�о����ػ���̳����ʥ��������" />
+		<Msg Index="381" Text="�Ϳ�˹�ѵ����챣������" />
+		<Msg Index="382" Text="�Ϳ�˹���ſ�ʼ��������" />
+		<Msg Index="383" Text="�Ϳ�˹���ӱ�Ӣ���ǻ���" />
+		<Msg Index="384" Text="MVP������%d" />
+		<Msg Index="385" Text="MVP���飺%d" />
+		<Msg Index="386" Text="�Ϳ�˹�� %s �ͻ��ϼ�" />
+		<Msg Index="387" Text="�Ϳ�˹�ѱ�����" />
+		<Msg Index="388" Text="�ڰ����� %d �� %s ����仨��ˮ" />
+		<Msg Index="389" Text="MVP������%d" />
+		<Msg Index="390" Text="�����ӵ���̳ %d" />
+		<Msg Index="391" Text="%s ��������̳ %d ������" />
+		<Msg Index="392" Text="��̳ %d �ѳɹ�����" />
+		<Msg Index="393" Text="���������Ӽ�̳ %d ��ʱ��" />
+		<Msg Index="394" Text="��̳ %d �ѱ����ӳ���2��" />
+		<Msg Index="395" Text="���̳ %d ������λ�ô���" />
+		<Msg Index="396" Text="%s ����ͼ���Ӽ�̳ %d" />
+		<Msg Index="397" Text="5����Զ����ӵ���̳" />
+		<Msg Index="398" Text="����ʱ�����ƶ�" />
+		<Msg Index="399" Text="���̳ %d �����ӱ��ж�" />
+		<Msg Index="400" Text="���񱣻�������ʧ" />
+		<Msg Index="401" Text="���Ӵ�����%d������������%d" />
+		<Msg Index="402" Text="���񱣻��������½���" />
+		<Msg Index="403" Text="��Ҫ260�����ϵľ����������" />
+		<Msg Index="404" Text="δ�ҵ��κν�ɫ" />
+		<Msg Index="405" Text="���[/���� ���� ��ֵ]" />
+		<Msg Index="406" Text="�˽���������δ֧��" />
+		<Msg Index="407" Text="������������������Χ" />
+		<Msg Index="408" Text="���ӽ����ɹ�" />
+		<Msg Index="409" Text="���ܸ��Լ�������Ŷ" />
+		<Msg Index="410" Text="���[/���� ���� | ���磺/���� ͨ��]" />
+		<Msg Index="411" Text="���سɹ�������ս����" />
+		<Msg Index="412" Text="���[/���� ��ֵ ��Ʒ]" />
+		<Msg Index="413" Text="���Ƴ��ȱ�����4��10���ַ�֮��" />
+		<Msg Index="414" Text="�����˻�δ�����˹���" />
+		<Msg Index="415" Text="��ȴ� %d �����ʹ��" />
+		<Msg Index="416" Text="����ս�ѽ���" />
+		<Msg Index="417" Text="��ʼ��������ս" />
+		<Msg Index="418" Text="��ʼ��������ս����" />
+		<Msg Index="419" Text="��ʼѡ���ս����׶�" />
+		<Msg Index="420" Text="ѡ��μӹ��ǵĹ��������" />
+		<Msg Index="421" Text="��ʼΪ����ս��׼��" />
+		<Msg Index="422" Text="����ս���� %d ���Ӻ󱬷�" />
+		<Msg Index="423" Text="�Ǳ�����ս���ڽ�����" />
+		<Msg Index="424" Text="���� %s �ɹ������˳Ǳ�" />
+		<Msg Index="425" Text="���� %s �����ǳǱ���������" />
+		<Msg Index="426" Text="�Ǳ�������δȷ��" />
+		<Msg Index="427" Text="ֻ�г��е����߲��ܽ���" />
+		<Msg Index="428" Text="�������ѱ�ע��" />
+		<Msg Index="429" Text="����ʧ�ܣ�������" />
+		<Msg Index="430" Text="��ɫ %s ���Ѹ���Ϊ %s" />
+		<Msg Index="431" Text="�������ڸ���ǰ�˳�����" />
+		<Msg Index="432" Text="%s ������Ϊ���᳤����᳤һͬ�����ң�" />
+		<Msg Index="433" Text="%s ������Ϊս��ָ�ӹ١���᳤�����᳤һͬ�����ң�" />
+		<Msg Index="434" Text="%s ������Ϊ��Ա" />
+		<Msg Index="435" Text="�������� %s �Ѹ�Ϊ %d" />
+		<Msg Index="436" Text="������������ %s ����" />
+		<Msg Index="437" Text="���������� %s �ǵжԹ�ϵ" />
+		<Msg Index="438" Text="���� %s �Ѽ������� %s" />
+		<Msg Index="439" Text="�������˳�����" />
+		<Msg Index="440" Text="���� %s ���˳����� %s" />
+		<Msg Index="441" Text="���᲻���� %s ����" />
+		<Msg Index="442" Text="���᲻���� %s �ж�" />
+		<Msg Index="443" Text="���� %s �ѽ�ɢ�����ظ���" />
+		<Msg Index="444" Text="��ʱ����ʹ�ô�����" />
+		<Msg Index="445" Text="���Ͷ��ֱ���ͬΪ %d �����ܽ���PK����" />
+		<Msg Index="446" Text="��ֹ��������" />
+		<Msg Index="447" Text="�˻��ѱ��ɹ����" />
+		<Msg Index="448" Text="����ս�ⲻ���ٻ�����֮ʯ" />
+		<Msg Index="449" Text="ֻ�н����������ٻ�����֮ʯ" />
+		<Msg Index="450" Text="���ٻ�����֮ʯ" />
+		<Msg Index="451" Text="�����ڲ����ٻ�����֮ʯ" />
+		<Msg Index="452" Text="����֮ʯ�ٻ��ɹ�" />
+		<Msg Index="453" Text="����֮ʯ�ٻ�ʧ��" />
+		<Msg Index="454" Text="��ɫ�ѱ��ɹ����" />
+		<Msg Index="455" Text="����� �C ���˻�ʤ" />
+		<Msg Index="456" Text="���ܵ����� x %d y %d" />
+		<Msg Index="457" Text="���ȡ��" />
+		<Msg Index="458" Text="458" />
+		<Msg Index="459" Text="459" />
+		<Msg Index="460" Text="���� %s ��ʼ" />
+		<Msg Index="461" Text="����� %d ���ӽ���" />
+		<Msg Index="462" Text="����� %d ������" />
+		<Msg Index="463" Text="ʤ������ %s" />
+		<Msg Index="464" Text="����ս�ⲻ���ٻ�ʿ��" />
+		<Msg Index="465" Text="ֻ���سǷ������ٻ�ʿ��" />
+		<Msg Index="466" Text="ֻ�л᳤�͸��᳤�����ٻ�ʿ��" />
+		<Msg Index="467" Text="����������ʿ������" />
+		<Msg Index="468" Text="ʿ���ٻ��ɹ�" />
+		<Msg Index="469" Text="�ٻ�ʿ�����ɹ�" />
+		<Msg Index="470" Text="[�] ���� %d ���ر�" />
+		<Msg Index="471" Text="[�] �μ�ʱ���ѹ�" />
+		<Msg Index="472" Text="[�] �򲻿ɿ���ȡ��" />
+		<Msg Index="473" Text="[�] %s �ո�������һ���»" />
+		<Msg Index="474" Text="[�] ���� /�μ� ��������" />
+		<Msg Index="475" Text="[�] �ѽ���� %s �����б�" />
+		<Msg Index="476" Text="C��n %d Giay N?a L�� K?t Th��c T��m GM" />
+		<Msg Index="477" Text="H?t Gi? T��m GM M�� Kh?ng Ai Th?ng H?t" />
+		<Msg Index="478" Text="T��m GM B? H?y R?i Nh��" />
+		<Msg Index="479" Text="T��m GM %s ?? B?t ??u ? M��p %s: %d/%d" />
+		<Msg Index="480" Text="�������ѹر�" />
+		<Msg Index="481" Text="���������� %d ����Զ��ر�" />
+		<Msg Index="482" Text="��Ʒ�ظ�����֪ͨ����Ա����" />
+		<Msg Index="483" Text="������������ѵ���" />
+		<Msg Index="484" Text="������ %d ����߳���Ϸ" />
+		<Msg Index="485" Text="�� %s ��������" />
+		<Msg Index="486" Text="�� %s �ر�����" />
+		<Msg Index="487" Text="����������1���Ӻ��Զ��ر�" />
+		<Msg Index="488" Text="����������3���Ӻ��Զ��ر�" />
+		<Msg Index="489" Text="����������5���Ӻ��Զ��ر�" />
+		<Msg Index="490" Text="ս������10���ʼ" />
+		<Msg Index="491" Text="%s ���� %d �ű�ʯ" />
+		<Msg Index="492" Text="492" />
+		<Msg Index="493" Text="493" />
+		<Msg Index="494" Text="494" />
+		<Msg Index="495" Text="495" />
+		<Msg Index="496" Text="496" />
+		<Msg Index="497" Text="497" />
+		<Msg Index="498" Text="498" />
+		<Msg Index="499" Text="����ȡ�°������ٷ���" />
+		<Msg Index="500" Text="���籤����ս�����ʽ��ʼ" />
+		<Msg Index="501" Text="501" />
+		<Msg Index="502" Text="��ϲ�����һ������" />
+		<Msg Index="503" Text="������ȡ������������" />
+		<Msg Index="504" Text="[����] ��ѹر�" />
+		<Msg Index="505" Text="[����] ��ѿ�ʼ" />
+		<Msg Index="506" Text="[����] ʱ�䵽" />
+		<Msg Index="507" Text="[����] �ѱ�ȡ��" />
+		<Msg Index="508" Text="[����] �ѿ�������� %d �˲μӣ�" />
+		<Msg Index="509" Text="[����] ���� /�μ� ��" />
+		<Msg Index="510" Text="[����] ��� %d��%s �Ѽ���" />
+		<Msg Index="511" Text="[����] %s ��Ӯ��ʤ��" />
+		<Msg Index="512" Text="[����] װ������..." />
+		<Msg Index="513" Text="[����] ת������..." />
+		<Msg Index="514" Text="[����] �۶����..." />
+		<Msg Index="515" Text="[����] ǹ��" />
+		<Msg Index="516" Text="[����] ��ͷ %s ����̭" />
+		<Msg Index="517" Text="[����] %s ��������" />
+		<Msg Index="518" Text="[MU֮��] ���Ŵ�" />
+		<Msg Index="519" Text="[���籤����ս] ���� %s Ӯ�û" />
+		<Msg Index="520" Text="[MU֮��] ռ�ݳǱ�ʱ�䣺%d ����" />
+		<Msg Index="521" Text="[���籤����ս] �������ߵ����г�Ա���ɻ�ý�����" />
+		<Msg Index="522" Text="[���籤����ս] 10 WC ̫����" />
+		<Msg Index="523" Text="[���籤����ս] �������Ľ�ɫ��" />
+		<Msg Index="524" Text="[���籤����ս] %d�㣺%s (���᣺%s)" />
+		<Msg Index="525" Text="[���籤����ս] ÿ�λ��10 WC" />
+		<Msg Index="526" Text="[���籤����ս] ���˻�ʤ" />
+		<Msg Index="527" Text="527" />
+		<Msg Index="528" Text="528" />
+		<Msg Index="529" Text="529" />
+		<Msg Index="530" Text="530" />
+		<Msg Index="531" Text="531" />
+		<Msg Index="532" Text="532" />
+		<Msg Index="533" Text="���[/���� ְҵ���� | ���磺/���� rr dk]" />
+		<Msg Index="534" Text="֧��ְҵ��dk, dw, fe, mg, dl, su" />
+		<Msg Index="535" Text="���κν��" />
+		<Msg Index="536" Text="%d�� ������%s (%d ����)" />
+		<Msg Index="537" Text="����������" />
+		<Msg Index="538" Text="%s �ﵽ %s ������" />
+		<Msg Index="539" Text="���Ѵﵽ %s ����" />
+		<Msg Index="540" Text="�ұ���ס�� =(" />
+		<Msg Index="541" Text="����Ҫ�ֿ�����64����ͬ��Ƭ���ܶһ�" />
+		<Msg Index="542" Text="лл�������յ���Ʒ�����Ž���" />
+		<Msg Index="543" Text="��Ǹ���Ҳ�ϲ����Щ��Ʒ" />
+		<Msg Index="544" Text="���ѳɹ��һ���Ʒ����ý���" />
+		<Msg Index="545" Text="545" />
+		<Msg Index="546" Text="546" />
+		<Msg Index="547" Text="547" />
+		<Msg Index="548" Text="548" />
+		<Msg Index="549" Text="549" />
+		<Msg Index="550" Text="550" />
+		<Msg Index="551" Text="����ת�� +%d �� 		����ת�����ޣ�%d ��" />
+		<Msg Index="552" Text="[ʰȡ %s] �ѿ���" />
+		<Msg Index="553" Text="[ʰȡ %s] �ѹر�" />
+		<Msg Index="554" Text="[ʰȡ] ����ȫ�ر�" />
+		<Msg Index="555" Text="��ʦ�������óɹ�" />
+		<Msg Index="556" Text="���󣬴�ʦ��������ʧ��" />
+		<Msg Index="557" Text="[VIP] �������������Թ���" />
+		<Msg Index="558" Text="[VIP] ���ո�ע���� %s �ײ�" />
+		<Msg Index="559" Text="[VIP] ��ѡ����ײ͵��ڵ�ǰ�ײ�" />
+		<Msg Index="560" Text="560" />
+		<Msg Index="561" Text="561" />
+		<Msg Index="562" Text="562" />
+		<Msg Index="563" Text="����MuHelper����ʹ���Զ��幥��" />
+		<Msg Index="564" Text="����ͬʱʹ��MuHelper���Զ��幥��" />
+		<Msg Index="565" Text="����Խ��ʹ�ã�%d" />
+		<Msg Index="566" Text="ʹ����ϣ�%d WC" />
+		<Msg Index="567" Text="ʹ����ϣ�%d WP" />
+		<Msg Index="568" Text="ʹ����ϣ�%d GP" />
+		<Msg Index="569" Text="������ӪӮ�û" />
+		<Msg Index="570" Text="��Ӱ��ӪӮ�û" />
+		<Msg Index="571" Text="[GvG�] ��ȱ�ٲμӻ����Ʒ" />
+		<Msg Index="572" Text="[GvG�] �����й�����ܲμ�" />
+		<Msg Index="573" Text="[GvG�] �᳤�����ȼ���" />
+		<Msg Index="574" Text="[GvG�] ���� %s �ոջ�� %d ����" />
+		<Msg Index="575" Text="[GvG�] �����;ȡ��" />
+		<Msg Index="576" Text="[GvG�] ���� %s ��Ӯ�û" />
+		<Msg Index="577" Text="[�һ����] ��Ҫ��%d WC �һ�" />
+		<Msg Index="578" Text="[�һ����] ��Ҫ��%d WP �һ�" />
+		<Msg Index="579" Text="[�һ����] ��Ҫ��%d GP �һ�" />
+		<Msg Index="580" Text="Ѱ��GMȻ���������װ�" />
+		<Msg Index="581" Text="%s Ӯ��Ѱ��GM���̫������" />
+		<Msg Index="582" Text="Ѱ��GM����� %d ���Ӻ����" />
+		<Msg Index="583" Text="[PEGAPEGA] �ѹر�" />
+		<Msg Index="584" Text="[PEGAPEGA] ���ʼʱ���ܾ�" />
+		<Msg Index="585" Text="[PEGAPEGA] ʱ�䵽" />
+		<Msg Index="586" Text="[PEGAPEGA] ����;ȡ��" />
+		<Msg Index="587" Text="[PEGAPEGA] ��ѿ���" />
+		<Msg Index="588" Text="[PEGAPEGA] ���� /muon �μ�" />
+		<Msg Index="589" Text="[PEGAPEGA] ������� %s ���б�" />
+		<Msg Index="590" Text="[PEGAPEGA] %s �����ջ�ʤ��" />
+		<Msg Index="591" Text="[PEGAPEGA] %s ������" />
+		<Msg Index="592" Text="[���� %d] ��Ҫ %d �����ϲ�����" />
+		<Msg Index="593" Text="[���� %d] ��Ҫ�� %d ��ת������" />
+		<Msg Index="594" Text="[���� %d] ��Ҫ %d �δ�ʦת���ŷ�������" />
+		<Msg Index="595" Text="[���� %d] ���������� %d ���" />
+		<Msg Index="596" Text="596" />
+		<Msg Index="597" Text="[���� %d] ��Ҫ���ʵ�VIP�ײͲ�����" />
+		<Msg Index="598" Text="[���� %d] ��Ҫ��Ʒ��%s" />
+		<Msg Index="599" Text="599" />
+		<Msg Index="600" Text="[����] ��ϲ�����������������" />
+		<Msg Index="601" Text="[PvP] %s ��ս %s����ʼ��ս" />
+		<Msg Index="602" Text="[PvP] %s %d x %d %s" />
+		<Msg Index="603" Text="[PvP] %s ��Ӯ��ʤ��" />
+		<Msg Index="604" Text="[PvP] ��ʼ�ˣ�������" />
+		<Msg Index="605" Text="[MaTaMaTa] �ѹر�" />
+		<Msg Index="606" Text="[MaTaMaTa] ���ʼ��" />
+		<Msg Index="607" Text="[MaTaMaTa] ʱ�䵽" />
+		<Msg Index="608" Text="[MaTaMaTa] ��ȡ��" />
+		<Msg Index="609" Text="[MaTaMaTa] �ѿ������ %d �˲μ�" />
+		<Msg Index="610" Text="[MaTaMaTa] ���� /muon �μ�" />
+		<Msg Index="611" Text="[MaTaMaTa] ��� %d��%s ������" />
+		<Msg Index="612" Text="[MaTaMaTa] ��1�� 		%s (%d ����)" />
+		<Msg Index="613" Text="[MaTaMaTa] ��2�� 		%s (%d ����)" />
+		<Msg Index="614" Text="[MaTaMaTa] ��3�� 		%s (%d ����)" />
+		<Msg Index="615" Text="[MaTaMaTa] ����ǰ������ %d (%d ����)" />
+		<Msg Index="616" Text="[MaTaMaTa] ��ǰ�ܻ��֣�%d" />
+		<Msg Index="617" Text="�����ư������������ַ�" />
+		<Msg Index="618" Text="������ %d �δ�ʦת��������" />
+		<Msg Index="619" Text="�������ӵ�� %d �δ�ʦת��������������" />
+		<Msg Index="620" Text="���[/��� (ף��, ���, ����...) (10,20,30)]" />
+		<Msg Index="621" Text="���[/��� (ף��, ���, ����...) (10,20,30)]" />
+		<Msg Index="622" Text="��ȱ�ٱ�Ҫ��Ʒ" />
+		<Msg Index="623" Text="����ִ�гɹ�" />
+		<Msg Index="624" Text="�ֿ�������������" />
+		<Msg Index="625" Text="TvT����� %d ���Ӻ�ر�" />
+		<Msg Index="626" Text="��������Ӳ��ܲμ�TvT" />
+		<Msg Index="627" Text="TvT��ѹر�" />
+		<Msg Index="628" Text="TvT����� %d ���Ӻ�ʼ" />
+		<Msg Index="629" Text="TvT���ʽ��ʼ" />
+		<Msg Index="630" Text="TvT��ѽ���" />
+		<Msg Index="631" Text="�����ܲμӱ���TvT�" />
+		<Msg Index="632" Text="TvT���δ����" />
+		<Msg Index="633" Text="��ȱ�ٲμ�TvT�����Ʒ" />
+		<Msg Index="634" Text="�������������Թ���" />
+		<Msg Index="635" Text="����ʱ����ʹ�ô�����" />
+		<Msg Index="636" Text="ʹ����������� %d ����ۿ�" />
+		<Msg Index="637" Text="���ģ�%d WC, %d WP, %d GP" />
+		<Msg Index="638" Text="�����ʹ����������������" />
+		<Msg Index="639" Text="�����������˴򿪹���ֿ�" />
+		<Msg Index="640" Text="����Ȩʹ�ù���ֿ�" />
+		<Msg Index="641" Text="%s �ոշ����ɫ %s %d ��" />
+		<Msg Index="642" Text="%s �ոշ���˻� %s %d ��" />
+		<Msg Index="643" Text="643" />
+		<Msg Index="644" Text="[����] ������Ҫ��%d ���" />
+		<Msg Index="645" Text="[����] ������Ҫ��%d WC" />
+		<Msg Index="646" Text="[����] ������Ҫ��%d WP" />
+		<Msg Index="647" Text="[����] ������Ҫ��%d GP" />
+		<Msg Index="648" Text="[����] %s û���㹻�������ֵ" />
+		<Msg Index="649" Text="[���� %d] ��Ҫ %d WC ����������" />
+		<Msg Index="650" Text="[���� %d] ��Ҫ %d ��Ҳ���ִ��" />
+		<Msg Index="651" Text="[���� %d] ��Ҫ %d PcPoint ������" />
+		<Msg Index="652" Text="[���� %d] �ֿ��������޷���ȡ����" />
+		<Msg Index="653" Text="[�һ����] �һ��ɹ���̫����" />
+		<Msg Index="654" Text="��ɱ %d ֻ��������������" />
+		<Msg Index="655" Text="���������̫����" />
+		<Msg Index="656" Text="[���� %d] ��û�����������֤" />
+		<Msg Index="657" Text="[���� %d] ��Ҫ %d �λ�ɱ���ܼ���" />
+		<Msg Index="658" Text="658" />
+		<Msg Index="659" Text="���޷�����˷��䣬%d ����뿪" />
+		<Msg Index="660" Text="[����] ������ɴ�����" />
+		<Msg Index="661" Text="�Է��ȼ����� %d ��������ƽ" />
+		<Msg Index="662" Text="[���ڻ] ���þ����ѳ���" />
+		<Msg Index="663" Text="[�ļ��] �����������" />
+		<Msg Index="664" Text="�ڴ˽��빫�� vs ����ս��" />
+		<Msg Index="665" Text="[GvG�] �ѹر�" />
+		<Msg Index="666" Text="[GvG�] ���� %d ���Ӻ�ʼ" />
+		<Msg Index="667" Text="[GvG�] ������" />
+		<Msg Index="668" Text="[GvG�] �ѽ�������Ϣ��" />
+		<Msg Index="669" Text="[GvG�] �����ܲμӴ˻" />
+		<Msg Index="670" Text="[GvG�] ���δ����" />
+		<Msg Index="671" Text="[���߹���] �ѿ���" />
+		<Msg Index="672" Text="[���߹���] �ѹر�" />
+		<Msg Index="673" Text="[����] �ѿ��� �C ��Ʒ������" />
+		<Msg Index="674" Text="[����] �������8���ַ�" />
+		<Msg Index="675" Text="[����] ���������� /���� ������" />
+		<Msg Index="676" Text="[����] �ѹر�" />
+		<Msg Index="677" Text="[����] �������" />
+		<Msg Index="678" Text="678" />
+		<Msg Index="679" Text="������ֻ���ڰ�ȫ����ʹ��" />
+		<Msg Index="680" Text="�����̵�Ϊ�ջ�û�м۸�" />
+		<Msg Index="681" Text="ע�⣺���̵�������Ʒ��ף����ʯ����" />
+		<Msg Index="682" Text="ע�⣺���̵�������Ʒ����걦ʯ����" />
+		<Msg Index="683" Text="ע�⣺���̵�������Ʒ�û��籦ʯ����" />
+		<Msg Index="684" Text="ע�⣺���̵���WCoinC������Ʒ" />
+		<Msg Index="685" Text="ע�⣺���̵���WCoinP������Ʒ" />
+		<Msg Index="686" Text="ע�⣺���̵��þ����������" />
+		<Msg Index="687" Text="����Ҫ�ȿ��������̵�" />
+		<Msg Index="688" Text="������� %d ���Ӻ�ִ��" />
+		<Msg Index="689" Text="����ʱ���ѹ�" />
+		<Msg Index="690" Text="[����] �ѹر�" />
+		<Msg Index="691" Text="[����] �ڴ�λ���޷�ʹ��" />
+		<Msg Index="692" Text="[����] ��û�����輼��" />
+		<Msg Index="693" Text="[����] ʣ��ʹ��ʱ�䣺%d ����" />
+		<Msg Index="694" Text="[����] ʱ�䵽" />
+		<Msg Index="695" Text="[����] �ѿ���" />
+		<Msg Index="696" Text="[���߹���] �����ȿ�������" />
+		<Msg Index="697" Text="[���߹���] �˵�ͼ�޷�ʹ��" />
+		<Msg Index="698" Text="�˹��᲻����" />
+		<Msg Index="699" Text="[PvP] ʱ�䵽" />
+		<Msg Index="700" Text="[PvP] ��ѱ�ȡ��" />
+		<Msg Index="706" Text="[%s] ����������ռ������������ʱ��ʼ��"/>
+		<Msg Index="707" Text="[%s] �����������������ϣ�����ʤ������%d�룡"/>
+		<Msg Index="708" Text="[%s] �����������뿪����������ʱֹͣ��"/>
+		<Msg Index="709" Text="[%s] ���������ɹ����ʤ�����������꣡"/>
+		<Msg Index="710" Text="����ȹ���ս��ʼ����ǿ�����ʤ��"/>
+		<Msg Index="711" Text="����ȹ���ս��������ǿ�����ʤ��"/>
+		<Msg Index="712" Text="���%s��Ϊ���α���ȳǱ����ˣ�"/>
+		<Msg Index="713" Text="���%s������α���ȳǱ�����Ȩ��"/>
+
+		<!-- Icewind Valley Battle Event Messages -->
+		<Msg Index="750" Text="[Icewind Valley] %s has sat on the throne! Countdown started!"/>
+		<Msg Index="751" Text="[Icewind Valley] %s from guild %s is holding the throne! %d seconds remaining!"/>
+		<Msg Index="752" Text="[Icewind Valley] The guild master has left the throne! Countdown stopped!"/>
+		<Msg Index="753" Text="[Icewind Valley] Guild %s has successfully captured the throne and won the battle!"/>
+		<Msg Index="754" Text="You have received the Icewind Valley Victory Buff!"/>
+		<Msg Index="755" Text="Only guild masters can sit on the throne!"/>
+		<Msg Index="756" Text="[Icewind Valley] The guild master has lost their position! Countdown stopped!"/>
+
+	</Message>
+</ThangCuoi>

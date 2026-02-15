@@ -1,0 +1,54 @@
+// ReiDoMU Event Configuration File
+// Icewind Valley Castle Siege System
+
+// Section 0: Basic Event Settings
+0
+// WarningTime   EventTime
+5               30              
+end
+
+// Section 1: Event Start Times
+1
+// Year   Month   Day   DayOfWeek   Hour   Minute   Second
+// Use 0 for any value, DayOfWeek: -1 for any day
+0        0       0     -1          20     0       0
+0        0       0     -1          22     0       0
+end
+
+// Section 2: Guild Rewards
+2
+// WC   WP   GP
+10    5     3
+end
+
+// Section 3: Character Rewards
+3
+// WC   WP   GP
+8     3     2
+end
+
+// Section 4: Throne Coordinates
+4
+// Map   X   Y
+2       225 237
+end
+
+// Section 5: Event Timings
+5
+// EventDuration   ThroneCountdownDuration
+60                120
+end
+
+// Section 6: Buff Rewards
+6
+// Strength   Agility   Vitality   Energy
+20          20        20         20
+end
+
+// Section 7: Item Drop Rewards
+7
+// ItemID   DropRate   ItemLevel   ExcellentOptions   LuckOption   SkillOption   SocketCount
+25          100         13           3                 1           1             2
+30          100         13           2                 1           1             1
+35          100         13           1                 1           1             1
+end
